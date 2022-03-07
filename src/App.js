@@ -1,11 +1,11 @@
-import Searcher from './components/Searcher'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Routing from './routes/Routing'
 
 function App () {
   return (
-    <div>
-      <h1 className="text-center">Music Player</h1>
-      <Searcher/>
-    </div>
+    <Router>
+      <Routing />
+    </Router>
   )
 }
 
